@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: #FFFFFF;
+}
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .container {
+        width: 100%;
+    }
+    header {
+        background: #000000;
+        color: #ffffff;
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+    }
+    footer {
+        background: #ffffff;
+        color: #333333;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 5px;
+        font-style: italic;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        background: #FFFFFF;
+        margin: 10px;
+    }
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .gridContainer div {
+        flex-basis: 100%;
+        height: 150px;
+        color: #000000;
+        font-size: 2rem;
+        margin-bottom: 4px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btnContainer {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .btnContainer div {
+        padding: 5px;
+        align-self: center;
+    }
+    button {
+        width: 100px;
+        cursor: pointer;
+        height: 41px;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        background-color: #72C3DC;
+        font-size: 2rem;
+        border: 1px solid #2B8EAD;
+        box-shadow: 0px 3px 0px #2B8EAD;
+    }
+    .box1 {
+        background: #EFEFEF;
+        border-left: 10px solid #6F98A8;
+    }
+    .box2 {
+        background: #EFEFEF;
+        border-left: 10px solid #2B8EAD;
+    }
+    .box3 {
+        background: #EFEFEF;
+        border-left: 10px solid #2F454E;
+    }
+    .box4 {
+        background: #EFEFEF;
+        border-left: 10px solid #2B8EAD;
+    }
+    .box5 {
+        background: #EFEFEF;
+        border-left: 10px solid #2F454E;
+    }
+    .box6 {
+        background: #EFEFEF;
+        border-left: 10px solid #BFBFBF;
+    }
+    .box7 {
+        background: #EFEFEF;
+        border-left: 10px solid #BFBFBF;
+    }
+    .box8 {
+        background: #EFEFEF;
+        border-left: 10px solid #6F98A8;
+    }
+    .box9 {
+        background: #EFEFEF;
+        border-left: 10px solid #2F454E;
+    }
+}
+
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:960px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    header {
+        background: #ffffff;
+        color: #000000;
+    }
+    .wrapper {
+        flex-direction: row;
+        background: #EFEFEF;
+        margin: 0;
+    }
+    .gridContainer {
+        flex-grow: 8;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+    .gridContainer div {
+        flex-basis: 33.333333%;
+        height: 150px;
+        color: #ffffff;
+        font-size: 5rem;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .btnContainer {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    button {
+        width: 180px;
+    }
+    footer {
+        background: #EFEFEF;
+        color: #333333;
+        font-size: 1.5rem;
+        padding: 30px;
+    }
+    .box1 {
+        background: #6F98A8;
+        border: none;
+    }
+    .box2 {
+        background: #2B8EAD;
+        border: none;
+    }
+    .box3 {
+        background: #2F454E;
+        border: none;
+    }
+    .box4 {
+        background: #2B8EAD;
+        border: none;
+    }
+    .box5 {
+        background: #2F454E;
+        border: none;
+    }
+    .box6 {
+        background: #BFBFBF;
+        border: none;
+    }
+    .box7 {
+        background: #BFBFBF;
+        border: none;
+    }
+    .box8 {
+        background: #6F98A8;
+        border: none;
+    }
+    .box9 {
+        background: #2F454E;
+        border: none;
+    }
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
